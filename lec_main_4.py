@@ -1,16 +1,17 @@
-a = [1, 5, 'Good', 'Red']
+a = [1, 5, 'Good', 'Bad']
 b = [9, 'Blue', 'Red', 11]
 
-c = (a[1] + b[3])
+c = a[1] + b[3]
 print(c)
 
-c = (a[2] + b[2])
-print(c)
+d = a[2] + b[2]
+print(d)
 
-c = (a[0] * b[0])
-print(c)
+e = a[0] + b[0]
+print(e)
 
-c = (a[1] ** b[3])
-print(c)
+f = a[1] ** b[3]
+print(f)
 
-print(a + b)
+g = a + b
+print(g)
